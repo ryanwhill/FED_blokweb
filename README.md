@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ryan Hillert
 
   #### Je startniveau:
-  Rood
+  Blauw
 
   #### Je focus:
-  surface plane
+  Surface Plane
  
 </details>
 
