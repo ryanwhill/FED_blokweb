@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Overzichtspagina  
-  <img src="readme-images/overzichtspagina" width="375px" alt="een overzichtspagina van de actuele films aangeboden door kinepolis">
+  <img src="readme-images/overzichtspagina" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Detailpagina  
-  <img src="readme-images/detailpagina.jpg" width="375px" alt="een detailpagina met informatie over de film">
+  <img src="readme-images/detailpagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
