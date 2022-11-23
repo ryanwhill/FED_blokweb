@@ -59,9 +59,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  • Je kan naar het kopje bioscoop maar vervolgens worden alle bioscopen opgenoemd, en kan je eigenlijk geen bioscoop selecteren. 
+	• Zelfde geldt voor datum, Je kan naar het kopje datum maar vervolgens worden er geen datums opgenoemd, en kan je eigenlijk geen bioscoop selecteren. 
+	• Je kan de filters selecteren maar vervolgens niet echt een keuze maken tussen de filters
+	• Tijdens het gebruiken van de tab toets gaat het steeds terug naar het menu waardoor je steeds elke keer het hele menu door moet om weer verder te gaan.
+	• Als je dan eenmaal in het menu weer zit ga je steeds van kopje naar kopje zonder enige aankondiging.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Met behulp van een sematische goede code klos je al de meeste problemen op.
 
 
   #### Muis en Toetsenbord 
