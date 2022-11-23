@@ -122,11 +122,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+    Charity :
+  - is een Hamburg menu nodig? Of mag ik ook een normale nav maken?
+  - hoe werken slide shows?
+  - mag je gebruik maken van sections om verschillende delen van je website aan te geven?
+
+    Matthew:
+  - moet je phone versie ook horizontaal werken?
+  - moet je alle animaties ook overnemen van je site?
+
+  Quinty:
+    - Hoe is mijn gebruik van classes en divs? Is dit de juiste manier? Hoe zou dit beter kunnen?
+    - Heb ik position te vaak gebruikt? Is dit de juiste manier? Hoe zou dit beter kunnen?
+    - Ik heb veel margin en padding veranderingen gebruikt om te positioneren, is dit handig? Hoe zou dit beter kunnen?
+
+  Ryan:
+  - Hoe kan ik het beste de filters opties toevoegen?  
+  - Hele section van de film klikbaar maken?
+  - Hoe je een makkelijkere navigatie menu kan maken inplaats van hamburger menu
+
 
 
   ### Verslag van meeting
@@ -278,8 +292,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. http://geekdommovies.com/official-poster-for-james-cameron-avatar-2/
+  2. https://www.cinematerial.com/movies/minions-the-rise-of-gru-i5113044/p/fluzkrnz
+  3. https://www.themoviedb.org/t/p/original/i3ZBZltw103y5hBCyq1yL4sOXRE.jpg
+  4. https://www.themoviedb.org/t/p/original/gmU7P3FzGFsl2wiSDhx9znZCNub.jpg
+  5. https://www.pinterest.com/pin/522065781803434568/
+  6. https://www.themoviedb.org/t/p/original/6Ju1pPOWuTprBmeZe2oVFgn3MOP.jpg
+  7. https://www.deviantart.com/camw1n/art/The-Amazing-Spider-Man-2-2014-Alternate-Poster-443487593
+
+
 
 </details>
