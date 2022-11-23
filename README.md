@@ -94,10 +94,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/sshelepagina.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dynamischdeel1.jpeg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/ssdynamischdeel1.jpeg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dynamischdeel2.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/ssdynamischdeel2.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
