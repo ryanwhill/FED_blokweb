@@ -12,22 +12,16 @@ summary {
     cursor: pointer;
 }
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
     /* startje */
     --color-text: #111;
     --color-background: #eee;
+    --color-button: #ff4f2e;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
@@ -36,6 +30,11 @@ summary {
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1F5F6;
 }
 
 header {
@@ -53,52 +52,95 @@ header button {
     color: white;
     border: 0.2em solid #ff4f2e;
     padding: 0.2em;
-    border-radius: 0.5em;
 }
 
 ul {
     list-style: none;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 0.5em;
+    margin: 0.75em;
+}
+
+ul li {
+    margin: 0.75em;
 }
 
 ul li button {
-    margin-top: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 7.5em;
+    padding-right: 7.5em;
     background-color: white;
     font-weight: bold;
     color: #ff4f2e;
     border: 0.2em solid #ff4f2e;
+    width: 100%;
 }
 
-section {
-    background-color:#4A81A0;
+main ul li button:hover {
+    background-color: #ff4f2e;
     color: white;
+    transition: 0.5s;
+}
+
+section:nth-of-type(1) {
+    margin-top: 2em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    margin-bottom: 0.75em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(2) {
+    margin: 0.75em;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: white;
+    font-weight: bold;
+    color: #4A81A0;
+    border: 0.2em solid grey;
+}
+
+label {
+    color: grey;
+    font-weight: bold;
+}
+
+section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+article {
+    background-color: white;
+    padding-bottom: 2em;
     font-weight: bold;
     margin-top: 1.5em;
     margin-left: 1em;
     margin-right: 1em;
-    border-radius: 1em;
-    display: flex;
 }
 
-section h2 {
+article h2 {
     font-size: 1em;
     margin-top: 1em;
-    margin-left: 0.5em;
+    line-height: 1em;
+    padding: 0px 5px;
+    text-align: center;
 }
 
-footer ul {
-    color: white;
+footer {
     background-color: #4A81A0;
-    margin-top: 2em;
+    color: white;
 }
 
-footer ul li {
-    margin: 1em;
+footer nav ul {
+    margin-top: 0.75em;
+    padding-top: 0.75em;
+    text-align: center;
 }
