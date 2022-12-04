@@ -32,6 +32,28 @@ summary {
     padding: 0;
 }
 
+header nav ul {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(-110%);
+    transition: transform .3s;
+    background-color: #064460;
+    height: 100vh;
+    padding-top: 4.25em;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0.75em;
+}
+
+nav ul.toonMenu {
+    transform: translatex(0);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F1F5F6;
@@ -42,8 +64,14 @@ header {
     color: white;
     padding: 0.75em;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
+    position: sticky;
+    top: 0em;
+}
+
+header button:first-of-type {
+    background-color: #064460;
+    border: 0.2em solid #064460;
 }
 
 header button {
@@ -52,19 +80,19 @@ header button {
     color: white;
     border: 0.2em solid #ff4f2e;
     padding: 0.2em;
+    z-index: 10;
 }
 
-ul {
+header button :first-of-type {
+    background-color: #064460;
+}
+
+main ul li {
     list-style: none;
-    flex-direction: column;
     margin: 0.75em;
 }
 
-ul li {
-    margin: 0.75em;
-}
-
-ul li button {
+main ul li button {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 7.5em;
@@ -74,12 +102,6 @@ ul li button {
     color: #ff4f2e;
     border: 0.2em solid #ff4f2e;
     width: 100%;
-}
-
-main ul li button:hover {
-    background-color: #ff4f2e;
-    color: white;
-    transition: 0.5s;
 }
 
 section:nth-of-type(1) {
@@ -115,6 +137,7 @@ label {
 section:nth-of-type(3) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
 article {
@@ -135,7 +158,7 @@ article h2 {
 }
 
 footer {
-    background-color: #4A81A0;
+    background-color: #064460;
     color: white;
 }
 
@@ -143,4 +166,33 @@ footer nav ul {
     margin-top: 0.75em;
     padding-top: 0.75em;
     text-align: center;
+}
+
+/****************/
+/* Tweede Pagina Styling */
+/****************/
+
+.tweedepagina section {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    margin-bottom: 0.75em;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweedepagina article {
+    color: #6E7474;
+    background-color: #F1F5F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tweedepagina span {
+    color: #064460;
+    margin-bottom: 5em;
+}
+
+.tweedepagina p:first-of-type {
+    margin-bottom: 0.25em;
 }
