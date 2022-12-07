@@ -83,10 +83,6 @@ header button {
     z-index: 10;
 }
 
-header button :first-of-type {
-    background-color: #064460;
-}
-
 main ul li {
     list-style: none;
     margin: 0.75em;
@@ -142,7 +138,7 @@ section:nth-of-type(3) {
 
 article {
     background-color: white;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
     font-weight: bold;
     margin-top: 1.5em;
     margin-left: 1em;
@@ -196,3 +192,8 @@ footer nav ul {
 .tweedepagina p:first-of-type {
     margin-bottom: 0.25em;
 }
+
+.tweedepagina footer nav ul {
+    list-style: none;
+}
+
