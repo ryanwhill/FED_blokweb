@@ -32,7 +32,7 @@ summary {
     padding: 0;
 }
 
-header nav ul {
+header nav {
     position: fixed;
     left: 0;
     right: 0;
@@ -47,10 +47,11 @@ header nav ul {
 }
 
 header nav ul li {
+    list-style: none;
     margin: 0.75em;
 }
 
-nav ul.toonMenu {
+nav.toonMenu {
     transform: translatex(0);
 }
 
@@ -145,7 +146,7 @@ article {
     margin-right: 1em;
 }
 
-article h2 {
+section article h2 {
     font-size: 1em;
     margin-top: 1em;
     line-height: 1em;
@@ -168,6 +169,11 @@ footer nav ul {
 /* Tweede Pagina Styling */
 /****************/
 
+iframe {
+    aspect-ratio: 560/315;
+    width: 100%;
+}
+
 .tweedepagina section {
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -181,19 +187,109 @@ footer nav ul {
     background-color: #F1F5F6;
     display: flex;
     flex-direction: column;
+}
+
+.tweedepagina figure {
+    background-color: #032331;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.75em;
+}
+
+.tweedepagina figcaption {
+    display: grid;
+    grid-template-rows: 1fr max-content;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
 
-.tweedepagina span {
-    color: #064460;
-    margin-bottom: 5em;
+.tweedepagina figcaption ul:first-of-type {
+    list-style: none;
+    color: #F1F5F6;
+    font-size: 1em;
 }
 
-.tweedepagina p:first-of-type {
-    margin-bottom: 0.25em;
+.tweedepagina figcaption ul:nth-of-type(2) {
+    list-style: none;
+    color: #F1F5F6;
+    font-size: 1em;
+}
+
+.tweedepagina figcaption ul:nth-of-type(3) {
+    margin-top: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tweedepagina section:nth-of-type(5) {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.tweedepagina h3 {
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.tweedepagina section:nth-of-type(5) article {
+    display: grid;
+    grid-template-rows: max-content max-content max-content;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    background-color: white;
+    padding: 0.4em;
+    margin: 0;
+    width: 15em;
+    scroll-snap-align: center;
+
+}
+
+.tweedepagina section:nth-of-type(5) article img:first-of-type {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid 0.4em white;
+}
+
+.tweedepagina section:nth-of-type(5) article img:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 3/4;
+    
+}
+
+.tweedepagina section:nth-of-type(5) article img:nth-of-type(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3/4;
+    justify-self: right;
+    
+}
+
+.tweedepagina h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.tweedepagina h1 {
+    background-color: #064460;
+    font-size: 1em;
+    color: white;
+}
+
+.tweedepagina h2 {
+    color: #064460;
 }
 
 .tweedepagina footer nav ul {
     list-style: none;
 }
-

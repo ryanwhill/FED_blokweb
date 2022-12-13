@@ -65,8 +65,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 	• Tijdens het gebruiken van de tab toets gaat het steeds terug naar het menu waardoor je steeds elke keer het hele menu door moet om weer verder te gaan.
 	• Als je dan eenmaal in het menu weer zit ga je steeds van kopje naar kopje zonder enige aankondiging.
 
-
-  Met behulp van een sematische goede code klos je al de meeste problemen op.
+  Met behulp van een sematische goede code los je al de meeste problemen op.
 
 
   #### Muis en Toetsenbord 

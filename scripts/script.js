@@ -2,7 +2,7 @@
 console.log("hi");
 
 var menuButton = document.querySelector("button:first-of-type");
-var navUl = document.querySelector("nav ul");
+var navUl = document.querySelector("nav");
 
 menuButton.addEventListener("click", openMenu);
 
