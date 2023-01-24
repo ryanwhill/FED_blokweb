@@ -12,6 +12,11 @@ summary {
     cursor: pointer;
 }
 
+:focus-visible {
+    color: green;
+    border: dotted;
+}
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
