@@ -9,4 +9,3 @@ menuButton.addEventListener("click", openMenu);
 function openMenu(){
     navUl.classList.toggle("toonMenu");
 }
-

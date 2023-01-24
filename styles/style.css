@@ -19,8 +19,9 @@ summary {
 :root {
     /* startje */
     --color-text: #111;
-    --color-background: #eee;
-    --color-button: #ff4f2e;
+    --color-background: #F1F5F6;
+    --color-oranje: #ff4f2e;
+    --color-blauw: #064460;
 }
 
 /****************/
@@ -32,6 +33,11 @@ summary {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
 header nav {
     position: fixed;
     left: 0;
@@ -40,7 +46,7 @@ header nav {
     bottom: 0;
     transform: translatex(-110%);
     transition: transform .3s;
-    background-color: #064460;
+    background-color: var(--color-blauw);
     height: 100vh;
     padding-top: 4.25em;
     list-style: none;
@@ -55,9 +61,20 @@ nav.toonMenu {
     transform: translatex(0);
 }
 
+nav ul li a {
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: var(--color-oranje);
+    cursor: pointer
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F1F5F6;
+    font-size: 87.5%;
 }
 
 header {
@@ -71,15 +88,15 @@ header {
 }
 
 header button:first-of-type {
-    background-color: #064460;
-    border: 0.2em solid #064460;
+    background-color: var(--color-blauw);
+    border: 0.2em solid var(--color-blauw);
 }
 
 header button {
-    background-color: #ff4f2e;
+    background-color: var(--color-oranje);
     font-weight: bold;
     color: white;
-    border: 0.2em solid #ff4f2e;
+    border: 0.2em solid var(--color-oranje);
     padding: 0.2em;
     z-index: 10;
 }
@@ -96,9 +113,15 @@ main ul li button {
     padding-right: 7.5em;
     background-color: white;
     font-weight: bold;
-    color: #ff4f2e;
-    border: 0.2em solid #ff4f2e;
+    color: var(--color-oranje);
+    border: 0.2em solid var(--color-oranje);
     width: 100%;
+}
+
+main ul li button:hover {
+    background-color: var(--color-oranje);
+    color: white;
+    transition: ease-in 0.3s;
 }
 
 section:nth-of-type(1) {
@@ -116,6 +139,98 @@ section:nth-of-type(2) {
     flex-direction: column;
 }
 
+section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+section:nth-of-type(3) article {
+    display: grid;
+}
+
+section:nth-of-type(3) a:nth-of-type(2) {
+    color: var(--color-oranje);
+}
+
+section:nth-of-type(3) a:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.75em;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+}
+
+section:nth-of-type(3) article {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+section:nth-of-type(3) article:nth-of-type(2) {
+    grid-column-start: 3;
+    grid-column-end: -1;
+}
+
+section:nth-of-type(3) article:nth-of-type(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 4;
+}
+
+section:nth-of-type(3) article:nth-of-type(4) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 4;
+}
+
+section:nth-of-type(3) article:nth-of-type(5) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 5;
+}
+
+section:nth-of-type(3) article:nth-of-type(6) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 5;
+}
+
+section:nth-of-type(3) article:nth-of-type(7) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 6;
+}
+
+section:nth-of-type(3) article:nth-of-type(8) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 6;
+}
+
+section:nth-of-type(3) article:nth-of-type(9) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 7;
+}
+
+section:nth-of-type(3) article:nth-of-type(10) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 7;
+}
+
+section:nth-of-type(3) article:nth-of-type(11) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 8;
+}
+
+section:nth-of-type(3) article:nth-of-type(12) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 8;
+}
+
 select {
     margin-top: 1em;
     padding-top: 0.5em;
@@ -131,12 +246,6 @@ label {
     font-weight: bold;
 }
 
-section:nth-of-type(3) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
 article {
     background-color: white;
     padding-bottom: 0em;
@@ -147,11 +256,12 @@ article {
 }
 
 section article h2 {
-    font-size: 1em;
-    margin-top: 1em;
-    line-height: 1em;
     padding: 0px 5px;
-    text-align: center;
+    color: #000;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1em;
+    word-break: break-word;
 }
 
 footer {
@@ -159,10 +269,42 @@ footer {
     color: white;
 }
 
-footer nav ul {
-    margin-top: 0.75em;
-    padding-top: 0.75em;
+footer nav h3 {
     text-align: center;
+    padding-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 87.5%;
+}
+
+footer nav ul li {
+    color: white;
+    list-style: none;
+    margin-top: 0em;
+    font-size: small;
+    text-align: center;
+}
+
+footer nav ul li:hover {
+    color: var(--color-oranje);
+    cursor: pointer;
+}
+
+footer nav ul:nth-of-type(6) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+footer nav ul:nth-of-type(8) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
 }
 
 /****************/
@@ -172,6 +314,7 @@ footer nav ul {
 iframe {
     aspect-ratio: 560/315;
     width: 100%;
+    border-style: none;
 }
 
 .tweedepagina section {
@@ -183,18 +326,18 @@ iframe {
 }
 
 .tweedepagina article {
-    color: #6E7474;
     background-color: #F1F5F6;
-    display: flex;
-    flex-direction: column;
+    color: #6E7474;
+    margin-bottom: 1em;
+    font-size: 87.5%;
+    line-height: 1.71429em;
 }
 
 .tweedepagina figure {
     background-color: #032331;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.75em;
+    padding-top: 0.75em;
+    padding-left: 0.75em;
+    justify-content: center;
 }
 
 .tweedepagina figcaption {
@@ -229,13 +372,7 @@ iframe {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     flex-direction: row;
-    gap: 1.5em;
-}
-
-.tweedepagina h3 {
-    font-size: 1em;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    gap: 1em;
 }
 
 .tweedepagina section:nth-of-type(5) article {
@@ -244,52 +381,116 @@ iframe {
     grid-template-columns: max-content max-content;
     justify-content: center;
     background-color: white;
-    padding: 0.4em;
+    padding: 0.5em;
     margin: 0;
     width: 15em;
     scroll-snap-align: center;
-
 }
 
 .tweedepagina section:nth-of-type(5) article img:first-of-type {
     width: 100%;
     grid-column-start: 1;
     grid-column-end: 3;
-    border: solid 0.4em white;
-}
-
-.tweedepagina section:nth-of-type(5) article img:nth-of-type(2) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row: 3/4;
-    
-}
-
-.tweedepagina section:nth-of-type(5) article img:nth-of-type(3) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 3/4;
-    justify-self: right;
-    
-}
-
-.tweedepagina h3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 2/3;
-    text-align: center;
-}
-
-.tweedepagina h1 {
-    background-color: #064460;
-    font-size: 1em;
-    color: white;
 }
 
 .tweedepagina h2 {
+    color: white;
+    background-color: var(--color-blauw);
+    line-height: 1rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-basis: 70%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.tweedepagina h3 {
+    color: var(--color-blauw);
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-bottom: 0.25em;
+    line-height: 1.71429em;
+}
+
+.tweedepagina h4 {
+    font-size: 1.3em;
     color: #064460;
+    padding: 0.75em;
+}
+
+.tweedepagina h5 {
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 0px 5px;
+    color: #000;
+}
+
+.tweedepagina footer nav h6 {
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.tweedepagina nav ul li a {
+    color: white;
+    cursor: pointer;
+}
+
+.tweedepagina nav ul li a:hover {
+    color: var(--color-oranje);
+    cursor: pointer;
 }
 
 .tweedepagina footer nav ul {
     list-style: none;
+    margin-top: 0em;
+    font-size: small;
+    text-align: center;
+}
+
+.tweedepagina footer nav ul li:hover {
+    color: var(--color-oranje);
+    cursor: pointer;
+}
+
+.tweedepagina footer nav ul:nth-of-type(6) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.tweedepagina footer nav ul:nth-of-type(8) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+
+@keyframes spannend-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+a[aria-label="spannend"]:hover div {
+    animation-name: spannend-animation;
+    animation-duration: 1s;
+    animation-iteration-count: 5;
 }

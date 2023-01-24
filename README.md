@@ -106,9 +106,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
@@ -151,9 +148,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - ...
 
 </details>
-
-
-
 
 
 ## Voortgang 2 (week 3)
@@ -210,15 +204,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door shocks werd het erg moeilijk om op dingen te klikken. Bij mij merkte ik dat ook.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik he  dit kunnen oplossen door de sommige knoppen iets groter te maken.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Kwa kleuren was er al niet veel mis op de originele site. Ik heb mijn kleuren iets donkerder gemaakt en lichter gemaakt om toch een duidelijk verschil te laten zien.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -256,16 +249,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Eindgesprek (week 5)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen1" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen2" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen3" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen4" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen5" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -281,9 +275,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Bronnenlijst
 
 <details open>
@@ -291,14 +282,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. http://geekdommovies.com/official-poster-for-james-cameron-avatar-2/
-  2. https://www.cinematerial.com/movies/minions-the-rise-of-gru-i5113044/p/fluzkrnz
-  3. https://www.themoviedb.org/t/p/original/i3ZBZltw103y5hBCyq1yL4sOXRE.jpg
-  4. https://www.themoviedb.org/t/p/original/gmU7P3FzGFsl2wiSDhx9znZCNub.jpg
-  5. https://www.pinterest.com/pin/522065781803434568/
-  6. https://www.themoviedb.org/t/p/original/6Ju1pPOWuTprBmeZe2oVFgn3MOP.jpg
-  7. https://www.deviantart.com/camw1n/art/The-Amazing-Spider-Man-2-2014-Alternate-Poster-443487593
-
-
+  1. https://www.themoviedb.org/t/p/original/6Ju1pPOWuTprBmeZe2oVFgn3MOP.jpg 
+  2. https://media-cache.cinematerial.com/p/500x/oc7qsbxd/the-batman-movie-poster.jpg?v=1604176909
+  3. https://www.blackfilm.com/read/wp-content/uploads/2018/03/Avengers-Infinity-War-new-poster.jpg
+  4. https://3.bp.blogspot.com/-k2ix_B3n4hU/UZfXZJyuP5I/AAAAAAAAciE/mlVdC5h0WeU/s1600/Man+of+Steel+Theatrical+One+Sheet+Movie+Poster.jpg
+  5. https://media.senscritique.com/media/000016312185/source_big/american_psycho.jpg
+  6. https://cdn.traileraddict.com/content/20th-century-fox/avatar-way-of-water.jpg
+  7. https://picfiles.alphacoders.com/174/174329.jpg
+  8. https://www.inspirationde.com/image/104451/
+  9. https://www.blackfilm.com/read/wp-content/uploads/2014/05/Guardians-of-the-Galaxy-poster-2.jpg
+  10. https://image.tmdb.org/t/p/original/btM7n4I7qXdMMiYJ4WZGh4SRuWt.jpg
+  11. https://image.tmdb.org/t/p/original/btM7n4I7qXdMMiYJ4WZGh4SRuWt.jpg
 
 </details>
